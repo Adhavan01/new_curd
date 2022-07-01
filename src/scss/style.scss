@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@500&family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Roboto+Slab&family=Smooch&display=swap');
+
+@import "./components.scss";
+
+$primer:rgb(56, 54, 54);
+
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   color: #000;
+}
+.container{
+    margin: 10%;
+    text-align: center;
+    background-image: linear-gradient(135deg,#fff,rgb(207, 206, 206));
+    position: relative;
+    border: 2px solid ;
+    width: -moz-available;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;                     
+
+}
+
+h1{
+    //text-align: center;
+   padding: 15px;
+   font-size: xx-large;
+   background-color: transparent;
+   z-index: 1;
+   color:#595757;
+  
+                              
+   }
+
+// adduser
+
+.row{
+    background-color: transparent;
+    margin: 15px;
+
+    &_form{
+      padding: 5px;
+      background-color: transparent;
+      display: flex;
+      justify-content: space-evenly;
+
+
+      &_input{
+        background-color: transparent;
+    }
+    }
+    
+}
+
+
+// users
+
+.striped{
+margin: auto;
+width: 75%;
+padding: 10px;
+background-image: linear-gradient(35deg,rgb(156, 154, 154),rgb(207, 206, 206));
+font-size: large;
+border-radius: 10px;
+thead{
+    font-size: larger;
+    color: #595757;
+}
+}
+
